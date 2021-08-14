@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 5 5
 Title "Italian Retro Guy's Cart Reader - Cart Detection"
 Date ""
 Rev ""
@@ -55,17 +55,6 @@ $EndComp
 Wire Wire Line
 	6050 4600 6150 4600
 $Comp
-L power:+3.3V #PWR0140
-U 1 1 612AB9B1
-P 5450 4100
-F 0 "#PWR0140" H 5450 3950 50  0001 C CNN
-F 1 "+3.3V" V 5465 4228 50  0000 L CNN
-F 2 "" H 5450 4100 50  0001 C CNN
-F 3 "" H 5450 4100 50  0001 C CNN
-	1    5450 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+3.3V #PWR0141
 U 1 1 612AD1BE
 P 5450 3900
@@ -110,8 +99,6 @@ F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" H 5750 4200 50 
 	1    5750 4200
 	0    -1   -1   0   
 $EndComp
-Text HLabel 6300 4200 2    50   Input ~ 0
-GB_CART_H
 Text HLabel 6050 3800 2    50   Input ~ 0
 CART_VCC
 Wire Wire Line
@@ -139,4 +126,17 @@ $EndComp
 Connection ~ 6150 4200
 Wire Wire Line
 	6150 4200 6300 4200
+$Comp
+L power:+3.3V #PWR0140
+U 1 1 612AB9B1
+P 5450 4100
+F 0 "#PWR0140" H 5450 3950 50  0001 C CNN
+F 1 "+3.3V" V 5465 4228 50  0000 L CNN
+F 2 "" H 5450 4100 50  0001 C CNN
+F 3 "" H 5450 4100 50  0001 C CNN
+	1    5450 4100
+	0    -1   -1   0   
+$EndComp
+Text HLabel 6300 4200 2    50   Input ~ 0
+GB_CART_H
 $EndSCHEMATC

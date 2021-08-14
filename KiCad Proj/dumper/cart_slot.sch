@@ -307,12 +307,12 @@ F 3 "" H 6200 4850 50  0001 C CNN
 $EndComp
 Text HLabel 5800 2550 1    50   BiDi ~ 0
 TD[0..7]
-Wire Bus Line
-	5800 2550 5800 3250
+Text HLabel 6000 1850 1    50   Output ~ 0
+CART_VCC
 Wire Wire Line
 	5050 5050 6100 5050
 Wire Bus Line
+	5800 2550 5800 3250
+Wire Bus Line
 	5800 3550 5800 5050
-Text HLabel 6000 1850 1    50   Output ~ 0
-CART_VCC
 $EndSCHEMATC

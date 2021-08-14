@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 4 5
 Title "Italian Retro Guy's Cart Dumper - Controller"
 Date ""
 Rev ""
@@ -173,35 +173,8 @@ Wire Wire Line
 	5400 3900 5400 4500
 Wire Wire Line
 	5300 4000 5300 4500
-$Comp
-L power:GND #PWR0111
-U 1 1 612FA415
-P 4950 3100
-F 0 "#PWR0111" H 4950 2850 50  0001 C CNN
-F 1 "GND" H 4955 2927 50  0000 C CNN
-F 2 "" H 4950 3100 50  0001 C CNN
-F 3 "" H 4950 3100 50  0001 C CNN
-	1    4950 3100
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4800 3400 4800 3100
-$Comp
-L Device:R R10
-U 1 1 612F942A
-P 4950 3250
-F 0 "R10" H 4880 3204 50  0000 R CNN
-F 1 "10K" H 4880 3295 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4880 3250 50  0001 C CNN
-F 3 "~" H 4950 3250 50  0001 C CNN
-	1    4950 3250
-	1    0    0    -1  
-$EndComp
-Connection ~ 4950 3400
-Wire Wire Line
-	4950 3400 5700 3400
-Wire Wire Line
-	4800 3400 4950 3400
 $Comp
 L MCU_Module:Arduino_Nano_v3.x A1
 U 1 1 611D7334
@@ -309,8 +282,6 @@ Wire Wire Line
 	4350 4000 5300 4000
 Wire Wire Line
 	4350 3900 5400 3900
-Wire Bus Line
-	4250 2900 4250 3700
 $Comp
 L power:GND #PWR0144
 U 1 1 61187873
@@ -332,5 +303,34 @@ F 2 "" H 6200 4500 50  0001 C CNN
 F 3 "" H 6200 4500 50  0001 C CNN
 	1    6200 4500
 	0    1    1    0   
+$EndComp
+Wire Bus Line
+	4250 2900 4250 3700
+Wire Wire Line
+	4800 3400 4950 3400
+Wire Wire Line
+	4950 3400 5700 3400
+Connection ~ 4950 3400
+$Comp
+L Device:R R10
+U 1 1 612F942A
+P 4950 3250
+F 0 "R10" H 4880 3204 50  0000 R CNN
+F 1 "10K" H 4880 3295 50  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4880 3250 50  0001 C CNN
+F 3 "~" H 4950 3250 50  0001 C CNN
+	1    4950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 612FA415
+P 4950 3100
+F 0 "#PWR0111" H 4950 2850 50  0001 C CNN
+F 1 "GND" H 4955 2927 50  0000 C CNN
+F 2 "" H 4950 3100 50  0001 C CNN
+F 3 "" H 4950 3100 50  0001 C CNN
+	1    4950 3100
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
