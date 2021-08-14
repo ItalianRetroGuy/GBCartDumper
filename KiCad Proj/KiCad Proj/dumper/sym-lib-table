@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DumperICs)(type Legacy)(uri "D:/Documenti/Cart Dumper/CustomLib/DumperICs.lib")(options "")(descr ""))
+)
