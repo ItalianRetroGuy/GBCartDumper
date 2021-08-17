@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 3 5
 Title "Italian Retro Guy's Cart Dumper - Controller"
 Date ""
 Rev ""
@@ -304,8 +304,6 @@ F 3 "" H 6200 4500 50  0001 C CNN
 	1    6200 4500
 	0    1    1    0   
 $EndComp
-Wire Bus Line
-	4250 2900 4250 3700
 Wire Wire Line
 	4800 3400 4950 3400
 Wire Wire Line
@@ -333,4 +331,6 @@ F 3 "" H 4950 3100 50  0001 C CNN
 	1    4950 3100
 	-1   0    0    1   
 $EndComp
+Wire Bus Line
+	4250 2900 4250 3700
 $EndSCHEMATC

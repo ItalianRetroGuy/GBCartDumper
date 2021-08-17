@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 2 5
 Title "Italian Retro Guy's Cart Dumper - Cartridge Slot"
 Date ""
 Rev ""
@@ -146,11 +146,11 @@ Wire Wire Line
 Text HLabel 6100 5450 0    50   Output ~ 0
 CART_VCC
 Text HLabel 4400 5050 0    50   Input ~ 0
-CART_CS
+TRANS_CART_CS
 Text HLabel 4400 5150 0    50   Input ~ 0
-CART_RD
+TRANS_CART_RD
 Text HLabel 4400 5250 0    50   Input ~ 0
-CART_WR
+TRANS_CART_WR
 $Comp
 L Device:R R?
 U 1 1 61279F54
@@ -281,8 +281,8 @@ Text Label 6050 3250 2    50   ~ 0
 TD1
 Text Label 6050 3350 2    50   ~ 0
 TD0
-Text Label 5800 2950 2    50   ~ 0
-TD[0..7]
+Text Label 5800 4250 2    50   ~ 0
+A[0..15]
 Wire Wire Line
 	4400 5050 5050 5050
 Connection ~ 4450 5250

@@ -99,8 +99,6 @@ F 3 "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" H 5750 4200 50 
 	1    5750 4200
 	0    -1   -1   0   
 $EndComp
-Text HLabel 6300 4200 2    50   Input ~ 0
-SWITCH_TRANSCEIVER
 Text HLabel 6050 3800 2    50   Input ~ 0
 CART_VCC
 Wire Wire Line
@@ -139,4 +137,6 @@ F 3 "" H 5450 4100 50  0001 C CNN
 	1    5450 4100
 	0    -1   -1   0   
 $EndComp
+Text HLabel 6300 4200 2    50   Input ~ 0
+GB_CART_H
 $EndSCHEMATC
